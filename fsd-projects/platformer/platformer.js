@@ -21,7 +21,19 @@ $(function () {
     createPlatform(-50, canvas.height - 10, canvas.width + 100, 200, "navy"); // bottom wall
     createPlatform(-50, -50, 50, canvas.height + 500); // left wall
     createPlatform(canvas.width, -50, 50, canvas.height + 100); // right wall
-
+    createPlatform(1200, 640, 200, 50, "purple");
+    createPlatform(700, 540, 300, 50, "purple");
+    createPlatform(1200, 430, 200, 50, "purple");
+    createPlatform(400, 410, 200, 50, "purple");
+    createPlatform(100, 320, 100, 50, "purple");
+    createPlatform(700, 300, 200, 50, "purple");
+    createPlatform(1000, 180, 400, 50, "purple");
+    createCollectable("steve", 100, 280);
+    createCollectable("diamond", 1350, 120, 0.5, 0.7);
+    createCollectable("max", 1350, 390, 0.5, 0.7);
+    createCannon("right", 300, 2000);
+    createCannon("top", 600, 950);
+    createCannon("top", 1000, 950);
     //////////////////////////////////
     // ONLY CHANGE BELOW THIS POINT //
     //////////////////////////////////
